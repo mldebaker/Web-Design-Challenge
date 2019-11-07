@@ -1,0 +1,19 @@
+/* Add your styles here */
+h1{
+    font-family: "Times New Roman", Times, serif;
+    color: #581845;
+    text-decoration: underline;
+}
+.container{
+    padding: 15px;
+    background-color: #DAF7A6;
+}
+h2{
+    font-family: "Times New Roman", Times, serif;
+    color: #581845;
+    background-color: #DAF7A6;
+}
+h10 {
+    font-family: "Times New Roman", Times, serif;
+    color: #581845;
+}
