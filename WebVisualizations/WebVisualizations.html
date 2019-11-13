@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+  </head>
 <body>
     <div class="container">
         <div class="row">
@@ -21,20 +21,22 @@
               
           </div>
           <div class="col-sm">
-                <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false".active>
-                          Plots
-                        </a>
-                      
-                        <div class="dropdown-menu".active aria-labelledby="dropdownMenuLink">
-                          <a class="dropdown-item".active href="Max_Temperature.html">Max Temperature</a>
-                          <a class="dropdown-item".active href="Humidity.html">Humidity</a>
-                          <a class="dropdown-item".active href="Cloudiness.html">Cloudiness</a>
-                          <a class="dropdown-item".active href="Wind_Speed.html">Wind Speed</a>
-                        </div>
-                    <a href="Comparisons.html" class="btn btn-secondary active" role="button" aria-pressed="true">Comparison</a>
-                    <a href="Data.html" class="btn btn-secondary active" role="button" aria-pressed="true">Data</a>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
                 </div>
+              </div>
+              <input type="text" class="form-control" aria-label="Text input with dropdown button">
+            </div>
+              <a href="Comparisons.html" class="btn btn-secondary active" role="button" aria-pressed="true">Comparison</a>
+              <a href="Data.html" class="btn btn-secondary active" role="button" aria-pressed="true">Data</a>
+            </div>
           </div>
         </div>
     </div>
@@ -48,7 +50,7 @@
                     <div class="col-sm">
                         <h2>Summary: Latitude Vs. X</h2>
                         <hr>
-                        <img src="Fig1.png" class="rounded float-left" alt="Fig1">
+                        <img src="https://github.com/mldebaker/Web-Design-Challenge/blob/master/WebVisualizations/Resources/assets/images/Fig1.png" class="rounded float-left" alt="Fig1">
                         <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 citites.</em></p>
                         <br>
                         <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latituude.  Factors we looked at included temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed</p>
