@@ -17,13 +17,14 @@
 
 
     </head>
-    <body>
+    <body class="container1" style="background-color: burlywood;">
+        <center><img src="Resources/assets/images/header.jpg" class="img-responsive" id="description-image" height="600px"/></center>
         <!-- Start of navbar -->
     <nav class="navbar navbar-default">
             <div class="container-fluid navbar-custom">
       
               <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="row">
+              <div class="row"style="background-color: beige;">
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle Navigation</span>
@@ -59,26 +60,30 @@
     <div class="container">
       <section class="row">
         <div class="col-md-8">
+          <center>
           <article class="description-content">
             <h1 class="description-header">Humidity Overview</h1>
-            <hr class="description-hr"/>
-            <img src="Resources/assets/images/Fig2.png" class="img-thumbnail" alt="Responsive image" id="description-image"/>
+            <hr class="description-hr" style="border-top: 1px solid black"/>
+            <img src="Resources/assets/images/lat_humidity.png" class="img-thumbnail" alt="Responsive image" id="description-image" width="600" height="600"/>
             <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the souther hemishpere tends to be warmer this time of year than the northern hemishpere. This may be due to the tilt of the earth at the fime of the year this data was gathered.</p>
           </article>
+        </center>
         </div>
         <div class="col-md-4">
 
           <!-- Start of Visualizations imageNav Area -->
           <section id="imageNav-area">
             <div class="imageNav-content">
-              <h2 class="imageNav-header">Visualizations</h2>
-              <hr />
+              <center>
+              <h1 class="imageNav-header">Visualizations</h1>
+              <hr class="description-hr" style="border-top: 1px solid black"/>
               <div id="images">
-                <a href="Max_Temperature.html"><img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="img-responsive"></a>
-                <a href="Humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" class="img-responsive"></a>
-                <a href="Cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" class="img-responsive"></a>
-                <a href="Wind_Speed.html"><img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" class="img-responsive"></a>
+                <a href="Max_Temperature.html"><img src="Resources/assets/images/lat_temp.png" alt="Latitude vs. Max Temperature" class="img-responsive"></a>
+                <br><a href="Humidity.html"><img src="Resources/assets/images/lat_humidity.png" alt="Latitude vs. Humidity" class="img-responsive"></a>
+                <br><a href="Cloudiness.html"><img src="Resources/assets/images/lat_cloudiness.png" alt="Latitude vs. Cloudiness" class="img-responsive"></a>
+                <br><a href="Wind_Speed.html"><img src="Resources/assets/images/lat_Wind.png" alt="Latitude vs. Wind Speed" class="img-responsive"></a>
               </div>
+            </center>
             </div>
           </section>
           <!-- End of the Visualizations imageNav Area -->
@@ -86,13 +91,20 @@
         </div>
       </section>
     </div>
-    <!-- End of container -->
-
-
-
-
-
-       <!-- add javascript files -->
+    <div class="container">
+        <section class="row">
+          <div class="col-md-12">
+            <article class="description-content">
+              <center>
+                  <div class="row">
+                    <br>
+                    <br>
+                    <br>
+                    <hr class="description-hr" style="border-top: 1px solid black"/>
+                    <p>© 2019 Copyright: Mike D</p>
+                    <hr class="description-hr" style="border-top: 1px solid black"/>
+                  </div>
+              </center>
 
        <!-- jQuery CDN -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>

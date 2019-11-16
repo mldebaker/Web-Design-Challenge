@@ -17,13 +17,14 @@
 
 
     </head>
-    <body>
+    <body class="container1" style="background-color: burlywood;">
+        <center><img src="Resources/assets/images/header.jpg" class="img-responsive" id="description-image" height="600px"/></center>
         <!-- Start of navbar -->
     <nav class="navbar navbar-default">
             <div class="container-fluid navbar-custom">
       
               <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="row">
+              <div class="row"style="background-color: beige;">
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle Navigation</span>
@@ -58,14 +59,12 @@
           <!-- Start of container -->
     <div class="container">
       <section class="row">
-        <div class="col-md-8">
+        <div class="col-md-7">
           <article class="description-content">
             <center>
             <h1 class="description-header">Latitude Study Overview</h1>
-            <hr class="description-hr"/>
-            <br>
+            <hr class="description-hr" style="border-top: 1px solid black"/>
             <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-            <br>
             <img src="Resources/assets/images/lat_temp.png" class="img-thumbnail" alt="Responsive image" id="description-image"/>
             <br>
             <br>
@@ -73,20 +72,24 @@
             </center>
           </article>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-5">
 
           <!-- Start of Visualizations imageNav Area -->
           <section id="imageNav-area">
             <div class="imageNav-content">
               <center>
-              <h2 class="imageNav-header">Visualizations</h2>
-              <hr />
-              <div id="images">
-                <a href="Max_Temperature.html"><img src="Resources/assets/images/lat_temp.png" alt="Latitude vs. Max Temperature" class="img-responsive"></a>
-                <a href="Humidity.html"><img src="Resources/assets/images/lat_humidity.png" alt="Latitude vs. Humidity" class="img-responsive"></a>
-                <a href="Cloudiness.html"><img src="Resources/assets/images/lat_cloudiness.png" alt="Latitude vs. Cloudiness" class="img-responsive"></a>
-                <a href="Wind_Speed.html"><img src="Resources/assets/images/lat_Wind.png" alt="Latitude vs. Wind Speed" class="img-responsive"></a>
+              <h1 class="imageNav-header">Visualizations</h1>
+              <hr class="description-hr" style="border-top: 1px solid black"/>
+              <div class="row">
+                  <div class="col-md-6" styles="padding: 10px";><a href="Max_Temperature.html"><img src="Resources/assets/images/lat_temp.png" alt="Latitude vs. Max Temperature" class="img-responsive"></a></div>
+                  <div class="col-md-6"><a href="Humidity.html"><img src="Resources/assets/images/lat_humidity.png" alt="Latitude vs. Humidity" class="img-responsive"></a></div>
+                  <div class="w-100"></div>
               </div>
+              <div class="row">
+                  <br>
+                  <div class="col-md-6"><a href="Cloudiness.html"><img src="Resources/assets/images/lat_cloudiness.png" alt="Latitude vs. Clousiness" class="img-responsive"></a></div>
+                  <div class="col-md-6"><a href="Wind_Speed.html"><img src="Resources/assets/images/lat_Wind.png" alt="Latitude vs. Wind Speed" class="img-responsive"></a></div>
+                </div>
               </center>
             </div>
           </section>
@@ -95,13 +98,21 @@
         </div>
       </section>
     </div>
-    <!-- End of container -->
 
-
-
-
-
-       <!-- add javascript files -->
+    <div class="container">
+        <section class="row">
+          <div class="col-md-12">
+            <article class="description-content">
+              <center>
+                  <div class="row">
+                    <br>
+                    <br>
+                    <br>
+                    <hr class="description-hr" style="border-top: 1px solid black"/>
+                    <p>© 2019 Copyright: Mike D</p>
+                    <hr class="description-hr" style="border-top: 1px solid black"/>
+                  </div>
+              </center>
 
        <!-- jQuery CDN -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
